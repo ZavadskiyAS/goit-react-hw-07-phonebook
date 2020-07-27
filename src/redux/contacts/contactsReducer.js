@@ -20,15 +20,6 @@ const items = (state = [], { type, payload }) => {
       return state;
   }
 };
-// if (contacts && contacts.find(contact => name === contact.name)) {
-//       this.showAlert(`${contact.name} already exists`);
-//     } else {
-//       this.setState(prevState => {
-//         return {
-//           contacts: [...prevState.contacts, contact],
-//         };
-//       });
-//     }
 
 const filter = (state = '', { type, payload }) => {
   switch (type) {
